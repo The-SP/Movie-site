@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  background: var(--darkGrey);
+  padding: 0 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--maxWidth);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content div {
+    background: var(--medGrey);
+    border-radius: 20px;
+    color: white;
+    padding: 0.1rem 1rem;
+    width: 100%;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+@media  (max-width: 768px) {
+    .content {
+        display: block;
+    }
+
+    .content div {
+        margin: 1rem 0;
+    }
+    
+}

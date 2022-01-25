@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+    color: black;
+    margin-top: 1rem;
+}
+
+.wrapper {
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+    padding: 0 20px;
+    color: var(--medGrey);
+}
+
+.wrapper h1 {
+    color: red;
+}
