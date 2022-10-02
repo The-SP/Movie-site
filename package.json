@@ -2,7 +2,7 @@
   "name": "react-rmdb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://the-sp.github.io",
+  "homepage": "http://the-sp.github.io/Movie-site",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
